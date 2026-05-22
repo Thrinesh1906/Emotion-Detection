@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+*.keras
+*.h5
+dataset/raw/*.csv
+dataset/processed/*.csv
+outputs/*
+!outputs/.gitkeep
+saved_models/*
+!saved_models/.gitkeep
+.ipynb_checkpoints/
+.DS_Store
+*.pdf
+!report/
